@@ -18,6 +18,7 @@ int oddtest(double a) {
     }
     /*recursion*/
     else return oddtest(a-2);
+}
 
 int addition(int a, int b) {
     for (int i = 0; i < b; ++i) {
